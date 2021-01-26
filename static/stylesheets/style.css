@@ -1,0 +1,95 @@
+nav a.navbar-brand {
+  font-size: 1.5em;
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav a.navbar-brand span {
+  color: rgb(255, 123, 0);
+  font-style: italic;
+}
+
+nav.navbar {
+  border-bottom: 4px solid white;
+  background-color: rgb(5, 5, 80);
+}
+
+p {
+  color: white;
+  margin: 0 20%;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-family: "Bodoni Moda", serif;
+}
+
+p b a#link {
+  text-decoration: none;
+  color: rgb(251, 255, 0);
+  transition: all 0.4s ease-in;
+  font-weight: bold;
+}
+
+p b a#link:hover {
+  color: rgb(21, 255, 0);
+}
+
+h2.good {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h2.name {
+  color: white;
+  margin-bottom: -20px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h2.name span {
+  color: rgb(255, 123, 0);
+  font-style: italic;
+}
+
+body {
+  background: #1a2a6c; /* fallback for old browsers */
+  background: #fc00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00dbde,
+    #fc00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00dbde,
+    #fc00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+div.container {
+  background: #a770ef; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #fdb99b,
+    #cf8bf3,
+    #a770ef
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #fdb99b,
+    #cf8bf3,
+    #a770ef
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 16px;
+  border: 4px solid white;
+}
+
+button {
+  margin: 0 auto;
+}
+
+h5.copy {
+  text-align: center;
+  color: white;
+}

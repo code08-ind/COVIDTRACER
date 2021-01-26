@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ff00cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #333399,
+    #ff00cc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #333399,
+    #ff00cc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow-x: hidden;
+}
+
+nav.navbar {
+  border-bottom: 4px solid #fff;
+  background-color: rgb(5, 5, 80);
+}
+
+nav.navbar a.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5em;
+}
+
+nav.navbar div ul li.nav-item a.nav-link {
+  font-family: "Oxygen", sans-serif;
+  color: white;
+  transition: all 0.4s ease-in;
+}
+
+nav.navbar div ul li.nav-item a.nav-link:hover {
+  color: red;
+}
+
+nav.navbar a.navbar-brand span {
+  color: rgb(255, 123, 0);
+  font-style: italic;
+}
+
+div.container {
+  background-color: #333399;
+  padding: 20px 40px;
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eef2f3,
+    #8e9eab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 60px;
+  border: 5px solid rgb(5, 5, 80);
+}
+
+div.container h2 {
+  font-family: "Fraunces", serif;
+  color: blue;
+}
+
+div.container div.row div.card {
+  margin: 10px 0;
+}
+
+div.container div.row div.card h1 {
+  font-family: "Roboto Slab", serif;
+}
+
+div.container div.row div.card h3 {
+  font-family: "Nunito", sans-serif;
+}
+
+div.container h5#dates {
+  font-family: "Noto Serif", serif;
+}

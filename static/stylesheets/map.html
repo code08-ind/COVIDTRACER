@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Map Info</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div#map {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <link rel="icon" href="https://freeiconshop.com/wp-content/uploads/edd/location-map-flat.png" type="image/x-icon">
+</head>
+
+<body onload="updateMap();">
+</body>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
+<div id='map'></div>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYXJ5YW4wOCIsImEiOiJja2tjdm81a3MwNGgyMnZwbTV4ZnBmbDFhIn0.axrK0Rqu2XhIcDi8tCvd6w';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/dark-v10',
+        zoom: 1,
+        center: [0, 30]
+    });
+</script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
