@@ -3,7 +3,6 @@ const path = require('path');
 const app = express();
 const request = require('request');
 
-let port = 5000;
 let localHost = '127.0.0.1';
 
 app.use(express.static(__dirname + '/static'));
@@ -26,6 +25,8 @@ app.get("/info", (req, res) => {
         }
     });
 });
+
+let port = process.env.PORT | 5000;
 
 app.listen(port, localHost, () => {
     console.log(`Covid-19 App Working At Port ${port}.`);
